@@ -2,7 +2,7 @@
 
 import type { ComplaintLanguage } from "@/types/complaint";
 import { usePreferences } from "./preferences-provider";
-import { Chip } from "@/components/ui";
+import { Chip } from "../ui";
 
 const languages: { code: ComplaintLanguage; label: string; native: string }[] = [
   { code: "en", label: "English", native: "English" },
